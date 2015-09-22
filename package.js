@@ -1,8 +1,8 @@
 Package.describe({
   summary: "Allows you to define and run db migrations.",
   version: "0.8.6",
-  name: "percolate:migrations",
-  git: "https://github.com/percolatestudio/meteor-migrations.git"
+  name: "clinical:migrations",
+  git: "https://github.com/awatson1978/clinical-migrations.git"
 });
 
 Package.on_use(function (api) {
