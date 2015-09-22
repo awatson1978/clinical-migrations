@@ -1,4 +1,4 @@
-# percolate:migrations
+# clinical:migrations
 
 A simple migration system for [Meteor](http://meteor.com) supporting up/downwards migrations and command line usage.
 
@@ -89,7 +89,7 @@ Migrations.getVersion();
 
 This info is for pre 0.9 users as post 0.9 the `migrate.sh` script is no longer included in the package folder.
 
-You can also run migrations from the command line using the included shell script. This will 
+You can also run migrations from the command line using the included shell script. This will
 
 1. Launch your Meteor app
 2. Call `Migrations.migrateTo(version)`
@@ -132,7 +132,7 @@ $ ./packages/percolatestudio-migrations/migrate.sh latest --settings ./setting.j
 4. Open http://localhost:3000/ in your browser to see the test results.
 
 
-## License 
+## License
 
 MIT. (c) Percolate Studio, maintained by Zoltan Olah (@zol).
 
