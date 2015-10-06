@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Allows you to define and run db migrations.",
-  version: "0.8.6",
+  version: "0.8.7",
   name: "clinical:migrations",
   git: "https://github.com/awatson1978/clinical-migrations.git"
 });
@@ -13,6 +13,6 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.use(['percolate:migrations', 'tinytest']);
+  api.use(['clinical:migrations', 'tinytest']);
   api.add_files('migrations_tests.js', ['server']);
 });
