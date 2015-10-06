@@ -1,13 +1,13 @@
 # clinical:migrations
 
-A simple migration system for [Meteor](http://meteor.com) supporting up/downwards migrations and command line usage.
+A simple migration system for [Meteor](http://meteor.com) supporting up/downwards migrations and command line usage.  Forked to experiment with package data migrations.
 
 ## Installation
 
 Meteor Migrations can be installed through Meteor's package manager. Type:
 
 ``` sh
-$ meteor add percolate:migrations
+$ meteor add clinical:migrations
 ```
 
 ## API
